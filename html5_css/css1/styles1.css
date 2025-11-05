@@ -1,66 +1,107 @@
-body{
-    background-color: #403001;
+body {
+    background-color: #467302;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;  
+}
+
+a {
+    color: antiquewhite;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #591202;
 }
 
 #container {
-    width: 950px;
+    width: 65%;
     margin: 20px auto;
-    background-color: #F2D194;
+    background-color: #BF6B04;
+    border: 4px solid #F2B705;
     padding: 20px;
-    border: 2px solid #F29F05;
     border-radius: 20px;
 }
-
 header {
     text-align: center;
-    padding: 50px;
+    padding: 40px;
+    border-bottom: 2px solid #591202;
+    
 }
 
 header h1 {
-    color: #403001;
-    font-size: 30px;
+    font-size: 50px;
+    color: #fff3b0;
+
 }
 
-nav { 
+nav {
     text-align: center;
-    border-top: 4px solid #F29F05;
-    border-bottom: 4px solid #F29F05;
-    padding: 10px 0;
+    border-bottom: 2px solid #591202;
 }
 
-nav a {
-    color: #403001;
-    font-size: 18px;
-    margin: 0 15px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-nav a:hover {
-    color: #F29F05;
+nav li {
+    display: inline-block;
+}  
+
+nav li a {
+    display: block;
+    background-color: #FFF3B0;
+    color: #ffbeb0;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
     text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #591202;
 }
 
-main {
-    margin: 20px auto;
-    padding: 20px;      
-    border: 4px solid #F29F05;
-    border-radius: 20px;
+nav li a:hover {
+    background-color: #591202;
+    color: #FFF3B0;
 }
 
 main h2 {
-    color: #403001;
     text-align: center;
+    color: #FFF3B0;
 }
 
-main img {
-    display: block;
-    margin: 20px auto;
-    width: 600px;
+.multi_col {
+    display: flex;
+}
+
+section, 
+aside {
     border-radius: 20px;
-}    
+    border: 2px solid #591202;
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+}
+
+section img {
+    width: 75%;
+    border-radius: 10px;
+    border: 2px solid #591202;
+}
 
 footer {
-    text-align: center;
     padding: 40px 0;
-    border-top: 4px solid #F29F05;
-    
-}   
+    text-align: center;
+}
