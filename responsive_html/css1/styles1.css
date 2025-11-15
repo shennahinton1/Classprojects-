@@ -136,7 +136,7 @@ iframe {
         padding: 10px;
         border-radius: 10px;
     }
-}
+
 
 .col img {
     width: 75%;
@@ -162,11 +162,11 @@ section, aside {
         border-radius: 10px;
 }
 
-home.section {
+.home_section {
     width: 70%;
 }
 
-home.aside {
+.home_aside {
     width: 30%;
 
 }
@@ -181,3 +181,4 @@ home.aside {
     color: chocolate;
 }
 
+}
